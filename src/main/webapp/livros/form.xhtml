@@ -10,28 +10,23 @@
 
     <div>
         <div>
-            <h:outputLabel value="Título" />
+            <h:outputLabel value="Título"/>
             <h:inputText value="#{adminLivrosBean.livro.titulo}" /> <!-- NOVIDADE NO VALUE AQUI -->
         </div>
         <div>
-            <h:outputLabel value="Título"/>
-            <h:inputText/>
-        </div>
-        <div>
             <h:outputLabel value="Descrição"/>
-            <h:inputTextarea/>
+            <h:inputTextarea value="#{adminLivrosBean.livro.descricao}"/>
         </div>
         <div>
             <h:outputLabel value="Número de Páginas"/>
-            <h:inputText/>
+            <h:inputText value="#{adminLivrosBean.livro.numeroPaginas}"/>
         </div>
         <div>
             <h:outputLabel value="Preço"/>
-            <h:inputText/>
+            <h:inputText value="#{adminLivrosBean.livro.preco}"/>
         </div>
-        <h:commandButton value="Cadastrar"/>
+        <h:commandButton value="Cadastrar" action="#{adminLivrosBean.salvar}"/>
     </div>
-    <h:commandButton value="Cadastrar" action="#{adminLivrosBean.salvar}" />
 </h:form>
 <!-- Fecha o html abaixo -->
 
