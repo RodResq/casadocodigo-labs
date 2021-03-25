@@ -15,8 +15,12 @@ public class AdminLivrosBean {
         return livro;
     }
 
+    public void setLivro(Livro livro) {
+        this.livro = livro;
+    }
+
     public void salvar() {
-        System.out.println("Livro cadastrado " + this.livro.toString());
+        System.out.println("Livro foi salvo " + this.livro.toString());
 
 
     }
