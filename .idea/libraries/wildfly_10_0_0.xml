@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="wildfly-10.0.0">
+    <CLASSES>
+      <root url="file://$USER_HOME$/opt/wildfly-10.0.0.Final" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/opt/wildfly-10.0.0.Final" recursive="false" />
+  </library>
+</component>

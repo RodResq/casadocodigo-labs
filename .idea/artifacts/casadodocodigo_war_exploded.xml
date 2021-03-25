@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="casadodocodigo:war exploded">
+    <output-path>$PROJECT_DIR$/target/casadodocodigo</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>casadodocodigo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="casadodocodigo" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/casadodocodigo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="casadodocodigo/web/Web" />
+    </root>
+  </artifact>
+</component>
