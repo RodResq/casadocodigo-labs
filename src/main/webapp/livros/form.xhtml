@@ -7,7 +7,12 @@
 
 <!-- Mantém o código de abertura do html acima -->
 <h:form>
+
     <div>
+        <div>
+            <h:outputLabel value="Título" />
+            <h:inputText value="#{adminLivrosBean.livro.titulo}" /> <!-- NOVIDADE NO VALUE AQUI -->
+        </div>
         <div>
             <h:outputLabel value="Título"/>
             <h:inputText/>
